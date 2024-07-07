@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #042237;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.countdown-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: inline-block;
+}
+
+#countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Animation for countdown */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#countdown {
+  animation: fadeIn 1s ease-out;
+}
