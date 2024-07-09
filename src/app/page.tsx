@@ -6,6 +6,7 @@ import Footer from "./components/landingpage/Footer";
 import WhySection from "./components/landingpage/Why";
 import useSlideToTop from "./hooks/useSlideToTop";
 import Section3 from "./components/landingpage/section3";
+import { Teams } from "./components/landingpage/Teams";
 
 export default function Home() {
    useSlideToTop(".slide-to-top");
@@ -16,6 +17,7 @@ export default function Home() {
       <Section2 />
       <WhySection />
       <Section3 />
+      <Teams/>
       <Footer />
     </>
   );
