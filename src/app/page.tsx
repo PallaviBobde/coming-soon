@@ -16,8 +16,8 @@ export default function Home() {
       <Section1 />
       <Section2 />
       <WhySection />
+      <Teams />
       <Section3 />
-      <Teams/>
       <Footer />
     </>
   );
